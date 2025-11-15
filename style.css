@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #958484;
+    
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+}
+
+#selected-team{
+    display: none;
+    font-size: 20px;
+}
+
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(169, 65, 65);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: black;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #363030;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #030303;
+    color: #fff;
+}
+
+button:active{
+    transform: scale(0.9);
+}
